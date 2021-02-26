@@ -1,0 +1,32 @@
+form{
+
+    border-radius: 25px;
+    border-width: medium;
+    border-style: solid;
+    padding: 30px;
+    text-align: center;
+    margin-top: 2px;
+    background: pink;
+}
+label{
+
+    float: left;
+    clear: both;
+    margin-top: 5px;
+}
+input[type="text"],input[type="password"]{
+
+    float: right;
+    margin: 1px;
+}
+#enviar{
+    margin-top: 2%;
+    position: relative;
+}
+#error_pass{
+
+    clear: both;
+}
+.invalid{
+    border-color: red;
+}

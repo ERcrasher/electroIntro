@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/zen-css.css">
+    <link rel="stylesheet" href="../styles/my-css.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form id="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" required>
+        <div id="error_pass"></div>
+        <input type="submit" id="enviar" value="Enviar Datos">
+
+    </form>
+
+
+    <script>    
+        require('./formulario.js')
+    
+    </script>
+</body>
+</html>
